@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Jogo Nasa - Açatech</title>
+	<link rel="icon" href="https://repl.it/public/images/favicon.ico" />
+	
+	<!-- Styles -->
+    <link href="jogo-nasa.css" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+
+    <script src="jogo-nasa.js" defer></script>
+</head>
+
+
+
+
+
+  
+<body id="body" onload="reset()">
+    
+  
+	<section class="flex center banner">
+    
+		<header class="flex">
+			<nav class="options">
+                <a class="link" onclick="reset()">Reset</a>
+				<a class="link" onclick="neve()">❄️Winter</a>
+				
+				<a class="link" onclick="fogo()">☀️Fire</a>
+			</nav>
+			<div class="flex">
+
+			</div>
+		</header>
+
+
+
+
+        
+		<div id="popup1" class="popup1">
+			<div class="conteudo" id="conteudo">
+				
+				<button class="close" id="close" onclick="fecharNeve()">x</button>
+			</div>
+
+			<h2>How Global Warming Can Affect Winter?</h2>
+
+			<div class="topicos" id="topicos">
+				<br>
+				<p>Simple, the warming of the planet disturbs atmospheric currents, which leads to a tendency to intensify some events, be they extreme heat waves or cold ones.</p><br>
+
+                    <p>How does a harsher winter affect the population of theoretically warmer regions?</p><br>
+                    
+                    <p>Taking as an example the intense cold front that hit Texas in 2021, in mid-February, residents were without power for weeks, there were more than 40 dead from the cold, as they died from hypothermia and in extreme cases, due to lack of electricity, residents had to light fires inside their homes to keep warm, which caused many house fires.</p>
+			</div>
+
+		</div>
+
+        
+
+		<div id="popup2" class="popup2">
+			<div class="conteudo" id="conteudo">
+				
+				<button class="close" id="close" onclick="fecharFogo()">x</button>
+			</div>
+
+			<h2>How Global Warming Can Affect Fire Risk?</h2>
+
+			<div class="topicos" id="topicos">
+				<p>Climate change has led to numerous environmental changes that can increase the frequency and magnitude of dangerous fire weather – increased drought, high air temperatures, low humidity, dry lightning and high winds, resulting in more droughts and longer fire seasons. The increasing frequency and magnitude of hazardous weather conditions is causing vegetation that would not normally burn (eg tropical forests, permafrost and peat bogs) to dry out and ignite.</p>
+				<p>How can global warming affect the risk of fires in boreal regions?</p>
+				<p>Fire is the dominant disruptor in the boreal ecosystems of Alaska and Canada and releases large amounts of carbon into the atmosphere.
+
+                    Climate change has led to numerous environmental changes that can increase the frequency and magnitude of dangerous fire weather – increased drought, high air temperatures, low humidity, dry lightning and high winds, resulting in more droughts and longer fire seasons. The increasing frequency and magnitude of hazardous weather conditions is causing vegetation that would not normally burn (eg tropical forests, permafrost and peat bogs) to dry out and ignite.</p>
+			</div>
+
+		</div>
+
+	<!--Desenvolvimento Gabriel Diniz-->
+</body>
+</html>
